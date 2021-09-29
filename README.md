@@ -21,5 +21,4 @@ $ #npx serve . rodando o servidor node
 # Calcalorias
 
 É uma aplicação calculando o número de calorias que o usuário deve consumir por dia.
-# calcalorias
-# calcalorias
+

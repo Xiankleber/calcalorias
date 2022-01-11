@@ -1,4 +1,4 @@
-// // Ouvindo o evento atarvés do addEventListener
+// // Ouvindo o evento através do addEventListener
 // // A função vai ser executada  toda vez que utilizarmos o submit
 // // event previne toda vez de reccaregar a página
 
@@ -6,7 +6,7 @@ const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
 
 //função  enviar
-// Passnado a função
+// Passando a função
 function handleSubmit(event) {
     event.preventDefault();
 
@@ -18,7 +18,7 @@ function handleSubmit(event) {
     const weight = getInputNumberValue("weight");
     const height = getInputNumberValue("height");
     const activityLevel = getSelectedValue("activity_level");
-    // Operçãopara calcular o valor das calorias
+    // Operação para calcular o valor das calorias
     const tmb = Math.round(
         gender === "female" ?
         655 + 9.6 * weight + 1.8 * height - 4.7 * age :
